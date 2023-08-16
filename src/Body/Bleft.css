@@ -1,0 +1,7 @@
+.bleft{
+    padding: 25px 10px;
+    flex: 0.33;
+    position:fixed;
+    top: 40px;
+    width: 360px;
+}

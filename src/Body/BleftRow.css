@@ -1,0 +1,22 @@
+.bleftRow{
+    display: flex;
+    align-items: center;
+    padding:  2px;
+    cursor: pointer;
+    font-size: 14px;
+    height: 55px;
+}
+.bleftRow:hover{
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+.bleftRow > a{
+    margin-left: 15px;
+    font-size: medium;
+   
+}
+.bleftRow > .MuiSvgIcon-root{
+    font-size: xx-large;
+    color: #2e81f4;
+}

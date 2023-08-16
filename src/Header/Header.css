@@ -1,0 +1,67 @@
+.header__left > img {
+    height: 40px;
+}
+.header{
+    display: flex;
+    padding: 15px 20px;
+    justify-content: space-between;
+    position: fixed;
+    background-color: white;
+    z-index: 100;
+    width: 100%;
+    height:60px;
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.75);
+}
+.header__left{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header__input{
+    display: flex;align-items: center;
+    background-color: #eff2f5;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 99px;
+}
+.header__input>input{
+    border: none;
+    background-color: transparent;
+    outline-width: 0;
+}
+.header__middle{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+.header__option > .MuiSvgIcon-root{
+    color: gray;
+}
+.header__option:hover > .MuiSvgIcon-root{
+    color: #2e81f4;
+
+}
+.header__option{
+    display: flex;
+    align-items: center;
+    padding: 0px 30px ;
+    cursor: pointer;
+}
+.header__option:hover{
+background-color: #eff2f5;
+border-radius: 10px;
+align-items: center;
+padding: 0px 30px ;
+border-bottom: none;
+}
+
+.header__right{
+    display: flex;
+    align-items: center;
+}
+.header__option--active> .MuiSvgIcon-root{
+    color: #2e81f4;
+}
+.header__option--active{
+   border-bottom: 4px solid #2e81f4;
+}
